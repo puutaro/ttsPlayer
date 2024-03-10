@@ -10,7 +10,6 @@ list=
 name=
     removeExtend=,
 
-
 click=
     enableUpdate=ON
     |actionImport=`${cmdTtsPlayerChangeStateAction}`
@@ -18,6 +17,7 @@ click=
         STATE=`${MANAGER}`
         !ON_LIST_DIR_UPDATER=true
         !ON_PLAY_INFO_SAVE=true,
+
 longClick=
     |jsPath=MENU
     |args=
