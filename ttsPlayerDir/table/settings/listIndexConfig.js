@@ -12,7 +12,8 @@ name=
 
 click=
     enableUpdate=ON
-    |actionImport=`${cmdTtsPlayerChangeStateAction}`
+    |actionImport=
+        `${cmdTtsPlayerChangeStateAction}`
     |replace=
         STATE=`${MANAGER}`
         !ON_LIST_DIR_UPDATER=true
@@ -21,7 +22,8 @@ click=
 longClick=
     |jsPath=MENU
     |args=
-        menuPath=`${cmdTtsPlayerTableLongPressListIndexMenuPath}`,
+        menuPath=
+            `${cmdTtsPlayerTableLongPressListIndexMenuPath}`,
 
 searchBox=
     visible=OFF,

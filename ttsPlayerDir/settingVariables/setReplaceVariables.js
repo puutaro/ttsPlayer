@@ -61,8 +61,6 @@ FANNEL_PATH=${0},
 // js action
 cmdTtsPlayerChangeStateAction=
 	`${cmdTtsPlayerActionsDirPath}/changeStateAction.js`,
-cmdTtsPlayerShibanText=
-	`${cmdTtsPlayerActionsDirPath}/shibanTest.js`,
 cmdTtsPlayerTtsAction=
 	`${cmdTtsPlayerActionsDirPath}/ttsAction.js`,
 
