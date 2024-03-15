@@ -12,7 +12,6 @@ TSV_SUFFIX=".tsv",
 // state
 TABLE=table,
 MANAGER=manager,
-PLAYER=player,
 CONFIG=config,
 
 // list index setting
