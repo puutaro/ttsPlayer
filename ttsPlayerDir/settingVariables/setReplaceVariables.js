@@ -23,8 +23,6 @@ textSize=30,
 
 
 // dir path variable
-monitorPath=
-	`${00}/conf/monitor/term_1`,
 ttsPlayerDirPath=
 	"${01}/${001}",
 cmdTtsPlayerActionsDirPath=
