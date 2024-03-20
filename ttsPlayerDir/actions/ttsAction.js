@@ -13,6 +13,7 @@ js=
         |onRoop=on
         |playNumber=
         |transMode=${toLang}
+        |onTrack=on
         |pitch=${pitch}
         |extraContent=
             {{ EXTRA_CONTENT }}
