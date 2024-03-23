@@ -1,5 +1,5 @@
 
-|tsvImport=
+tsvImport=
     `${cmdTtsPlayerManagerListIndexTsvPath}`
 |jsCon=
     `var playInfo = 
