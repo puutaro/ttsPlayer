@@ -9,6 +9,3 @@ icon=ok,
 
 click=
     jsPath=jsCmdValSaveAndBack.run_S,
-    // actionImport=`${cmdTtsPlayerChangeStateAction}`
-    // |replace=
-    //     STATE=`${CONFIG}`,
