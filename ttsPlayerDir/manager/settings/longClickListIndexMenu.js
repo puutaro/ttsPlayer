@@ -15,6 +15,12 @@ name=Show
 
 name=Copy
 |icon=copy
+|tsvImport=`${cmdTtsPlayerManagerListIndexTsvPath}`
+|js=
+    if=`
+        "${listDir}" == "${cmdTtsPlayerLikePlayListPath}"
+        || "${listDir}" == "${cmdTtsPlayerPreviousTtsPlayListPath}"`
+    ?func=exitZero
 |js=
     var=fileList
     ?func=jsFileSystem.showFullFileList
@@ -24,18 +30,11 @@ name=Copy
             prefix=${TTS_PREFIX}
             |excludeFiles=
                 ${cmdTtsPlayerPreviousTtsPlayListName}
-                ?${cmdTtsPlayerLikePlayListName}
-        `
+                ?${cmdTtsPlayerLikePlayListName}`
 |actionImport=
     `${cmdTtsPlayerCopyToOtherAction}`
 |replace=
-    COPY_TSV_PATH_TO_TYPE_CON=`${fileList}`
-|alter=`
-    shellIfPath=JUDGE_LIST_DIR
-    |ifArgs=
-        tsvPath=${cmdTtsPlayerManagerListIndexTsvPath}
-        ?tsvValue=${cmdTtsPlayerLikePlayListPath}
-    |actionImport=`,
+    COPY_TSV_PATH_TO_TYPE_CON=`${fileList}`,
 
 
 name=Play
